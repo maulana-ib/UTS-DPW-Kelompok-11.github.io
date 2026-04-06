@@ -3,14 +3,8 @@
 2. Siti Nazira
 3. Herva Sulista
 
-//commit maulana
-Commit 1: nambah header dan footer simpel  
-Commit 2: update footer yang terpotong  
-Commit 3: push css external  
-Commit 4: menghapus style untuk logo unri pada css untuk kemudian menggunakan logo ft unri di html langsung  
-Commit 5: rombak header dan footer agar terlihat lebih mirip dengan website ori(namun tetap me redesain sedikit)  
-Commit 7-14: update html dan cssnya dan menambah image logonya  
-commit 15-18?: update kesalahan ceroboh karna perbedaan path antara dir local dan github 
+Maulana:
+Saya melakukan redesain pada bagian header dan footer, pada bagian header tidak jauh berbeda saya hanya menambahkan icon di bagian tertentu pada topbarnya yang menandakan bagian tersebut bisa di drop down. Untuk bagian footer sendiri saya hanya menyesuaikan ukurannya yang sebelumnya pada web originalnya terlihat sedikit terlalu besar pada desktop
 
 
 //commit herva
