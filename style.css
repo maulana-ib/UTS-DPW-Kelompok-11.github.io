@@ -133,6 +133,79 @@ body {
   }
 }
 
+:root {
+    --ft-maroon: #ad0000;
+    --ft-dark-blue: #1a2a44;
+}
+
+.ft-hero {
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Memberikan efek parallax sedikit */
+    display: flex;
+    align-items: center;
+}
+
+.hero-content h1 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+}
+
+.hero-content p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+.btn-primary-ft {
+    background-color: var(--ft-dark-blue);
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary-ft:hover {
+    background-color: #0d1a2d;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Profil Section Styling */
+.text-maroon {
+    color: var(--ft-maroon);
+}
+
+.border-maroon {
+    border-color: var(--ft-maroon) !important;
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: var(--ft-maroon);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(173, 0, 0, 0.3);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+#profil-singkat.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .ft-footer {
   background: linear-gradient(135deg, #000 0%, #000 100%);
   color: var(--ft-white);
