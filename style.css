@@ -79,7 +79,6 @@ body {
   color: var(--ft-white);
 }
 
-/* Brand / logo sizing */
 .navbar-brand-custom {
   display: flex;
   align-items: center;
@@ -98,6 +97,10 @@ body {
   height: 44px;
   width: auto;
   display: block;
+}
+
+.ft-footer .brand-logo-box img {
+  height: 52px;
 }
 
 .ft-dropdown {
