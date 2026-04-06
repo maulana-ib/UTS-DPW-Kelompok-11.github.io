@@ -286,7 +286,15 @@ html {
     opacity: 1;
     display: block;
 }
-
+.bg-black { background-color: #000000 !important; }
+.layanan-card {
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    border: 1px solid #dee2e6 !important;
+}
+.layanan-card:hover {
+    transform: translateY(-5px);
+    border-color: #ad0000 !important;
+}
 .mitra-card:hover {
     transform: translateY(-5px); 
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
