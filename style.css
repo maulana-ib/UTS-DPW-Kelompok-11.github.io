@@ -245,3 +245,46 @@ html {
   opacity: 1;
   background: rgba(255, 255, 255, 0.08);
 }
+.mitra-card {
+    height: 160px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff; 
+    border: none; 
+
+    background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
+    background-size: 10px 10px; 
+    
+    transition: all 0.3s ease;
+}
+
+.mitra-card img {
+    max-height: 80px;
+    max-width: 85%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(0%);
+    opacity: 1;
+    display: block;
+}
+
+.mitra-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    background-image: none;
+    background-color: #ffffff;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000000 !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 24px !important;
+    font-weight: bold;
+}
