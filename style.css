@@ -204,6 +204,21 @@ html {
 #profil-singkat.visible {
     opacity: 1;
     transform: translateY(0);
+  .experience-badge {
+    position: absolute;
+    bottom: -15px; /* Menggantung sedikit di bawah gambar */
+    right: -15px;  /* Menggantung sedikit di kanan gambar */
+    background: #ad0000; /* Merah Marun FT */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.rounded-4 {
+    border-radius: 1.5rem !important;
+}
 }
 
 .ft-footer {
