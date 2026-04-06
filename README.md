@@ -17,3 +17,5 @@ commit 3: style.css pada bagian body ucapan pembuka dengan gambar ft
 commit 1: index.html menambahkan gambar pada bagian mitra
 commit 2: uploud gambar mitra
 commit 3: Menambahkan styling CSS untuk bagian mitra
+commit 4: Menambahkan menambahkan section layanan publik dan aduan itjen
+
