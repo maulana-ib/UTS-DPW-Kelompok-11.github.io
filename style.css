@@ -79,6 +79,27 @@ body {
   color: var(--ft-white);
 }
 
+/* Brand / logo sizing */
+.navbar-brand-custom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.navbar-brand-custom img.logo {
+  height: 45px;
+  width: auto;
+  display: block;
+}
+
+.brand-logo-box img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
 .ft-dropdown {
   border-radius: 0.75rem;
   padding: 0.5rem;
@@ -127,7 +148,7 @@ body {
 
 .ft-footer-link {
   color: var(--ft-white);
-} 
+}
 
 .ft-footer-divider {
   border-color: rgba(255, 255, 255, 0.18);
