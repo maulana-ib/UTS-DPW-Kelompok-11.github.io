@@ -127,22 +127,7 @@ body {
 
 .ft-footer-link {
   color: var(--ft-white);
-}
-
-.ft-footer-logo {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.05;
-}
-
-.ft-footer-logo-top {
-  font-weight: 800;
-  letter-spacing: 0.06em;
-}
-
-.ft-footer-logo-sub {
-  font-weight: 700;
-}
+} 
 
 .ft-footer-divider {
   border-color: rgba(255, 255, 255, 0.18);
