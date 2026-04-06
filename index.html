@@ -6,76 +6,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FT UNRI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">FT UNRI</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Profil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Akademik</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">SDM</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">PPID</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">K3L</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">SPM</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sarjana</a></li>
-                </ul>
+    <header class="ft-header sticky-top">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg ft-navbar">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand d-flex align-items-center gap-3 ft-no-nav" href="#">
+                    <div class="ft-logo-mark">
+                        <div class="ft-logo-top">UNRI</div>
+                        <div class="ft-logo-sub">Fakultas Teknik</div>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftNavbar"
+                    aria-controls="ftNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="ftNavbar">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu ft-dropdown">
+                                <li><a class="dropdown-item ft-no-nav" href="#">Sejarah</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Struktur Organisasi</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Visi dan Misi</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Tujuan</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Pimpinan</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Sambutan Dekan</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Akreditasi</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Akademik
+                            </a>
+                            <ul class="dropdown-menu ft-dropdown">
+                                <li><a class="dropdown-item ft-no-nav" href="#">Kalender Akademik</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Peraturan Terkait</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Pedoman Akademik</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">SOP Akademik</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Jurusan Teknik Mesin</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Jurusan Teknik Elektro</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Jurusan Arsitektur</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Jurusan Teknik Sipil</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Jurusan Teknik Kimia</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link ft-no-nav" href="#">SDM</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PPID
+                            </a>
+                            <ul class="dropdown-menu ft-dropdown">
+                                <li><a class="dropdown-item ft-no-nav" href="#">Profil Singkat</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Gambaran Umum</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Struktur Organisasi</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Surat Keputusan</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Tugas & Tanggung Jawab</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Visi & Misi</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">SOP PPID</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Layanan Terkait</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Layanan Informasi</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Informasi Wajib Berkala</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Informasi Tersedia Setiap Saat</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Daftar Informasi Publik Online</a></li>
+                                <li><a class="dropdown-item ft-no-nav" href="#">Formulir Permohonan & Keberatan</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link ft-no-nav" href="#">K3L</a></li>
+                        <li class="nav-item"><a class="nav-link ft-no-nav" href="#">SPM</a></li>
+                        <li class="nav-item"><a class="nav-link ft-no-nav" href="#">Kerjasama</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
+    <!-- Bagian Zira Herva -->
 
 
-    <footer class="bg-dark text-white pt-5 pb-3">
+
+    <!-- FOOTER -->
+    <footer class="ft-footer py-5">
         <div class="container">
-            <div class="row">
+            <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="ft-footer-logo">
+                            <div class="ft-footer-logo-top">UNRI</div>
+                            <div class="ft-footer-logo-sub">Fakultas Teknik</div>
+                        </div>
+                        <div>
+                            <div class="fw-semibold">Fakultas Teknik Universitas Riau</div>
+                        </div>
+                    </div>
 
-                <div class="col-md-4 mb-4">
-                    <h5>Fakultas Teknik</h5>
-                    <p>Universitas Riau</p>
-                    <p>Alamat: Kampus Bina Widya, Pekanbaru</p>
+                    <div class="ft-footer-social d-flex gap-3 mb-3">
+                        <a class="ft-footer-link ft-no-nav" href="#" aria-label="Facebook"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a class="ft-footer-link ft-no-nav" href="#" aria-label="Twitter"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a class="ft-footer-link ft-no-nav" href="#" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
 
-                    <div>
-                        <i class="me-2">FB</i>
-                        <i class="me-2">IG</i>
-                        <i>TW</i>
+                    <div class="small">
+                        <div class="mb-1">Alamat:</div>
+                        <div>Fakultas Teknik, Kampus Binawidya, Jl. HR Soebrantas KM. 12.5, Simpang Baru, Tampan</div>
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-4">
-                    <h6>Direktori Web</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">UNRI</a></li>
-                        <li><a href="#" class="text-white">Perpustakaan</a></li>
-                        <li><a href="#" class="text-white">LPPM</a></li>
+                <div class="col-6 col-lg-2">
+                    <div class="fw-semibold mb-2">Direktori Web</div>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">UNRI</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">Perpustakaan</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">LPPM</a></li>
+                        <li><a class="ft-footer-link ft-no-nav" href="#">LPPMP</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-4 mb-4">
-                    <h6>Kontak</h6>
-                    <p>Email: info@ft.unri.ac.id</p>
-                    <p>Telp: (0761) 63266</p>
+                <div class="col-6 col-lg-3">
+                    <div class="fw-semibold mb-2">Layanan Online</div>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">Satu Unri</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">E-Jurnal</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">Selasi</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">E-PPM</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">Insentif PPM</a></li>
+                        <li class="mb-1"><a class="ft-footer-link ft-no-nav" href="#">Email</a></li>
+                    </ul>
                 </div>
 
+                <div class="col-12 col-lg-3">
+                    <div class="fw-semibold mb-2">Say hello</div>
+                    <div class="small mb-1">Need support?</div>
+                    <a class="ft-footer-link ft-no-nav small d-inline-block mb-3" href="#">helpdesk.unri.ac.id</a>
+
+                    <div class="small mb-1">Customer care</div>
+                    <a class="ft-footer-link ft-no-nav small" href="#">(0761) 63266</a>
+                </div>
             </div>
 
-            <hr class="border-light">
+            <hr class="ft-footer-divider my-4">
 
-            <div class="text-center">
-                <small>This site is protected by reCAPTCHA and the Google privacy policy and terms of service apply. You
-                    must not use this website if you disagree with any of these website standard terms and
-                    conditions.</small>
+            <div class="text-center small opacity-75">
+                This site is protected by reCAPTCHA and the Google privacy policy and terms of service apply. You must
+                not use this website if you disagree with any of these website standard terms and conditions.
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
