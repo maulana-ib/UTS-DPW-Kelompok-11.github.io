@@ -9,3 +9,5 @@ Saya melakukan redesain pada bagian header dan footer, pada bagian header tidak 
 
 //commit herva
 commit 1: upload gambar teknik unri untuk bagian body
+commit 2: index.html bagian body ucapan pembuka dengan gambar ft
+commit 3: style.css pada bagian body ucapan pembuka dengan gambar ft
